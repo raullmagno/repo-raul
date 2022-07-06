@@ -5,3 +5,6 @@
     color: var(--cor-secundaria-success)
 }
 
+.legacy-form-row{
+    padding: 10px;
+}
