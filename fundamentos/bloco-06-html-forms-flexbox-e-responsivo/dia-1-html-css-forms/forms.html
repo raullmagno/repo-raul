@@ -13,12 +13,20 @@
     </header>
 
     <form action="" method="get" enctype="multipart/form-data">
-        <label for="nome-completo">Nome Completo
-            <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required>
-        </label>
-        
-
+        <div class="form-content">
+            <label for="nome-completo">Nome Completo
+                <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required>
+            </label>
+            <br>
+            <label for="email-user">Email
+                <input type="email" name="email" id="email-user" placeholder="Digite seu email" required>
+            </label>
+            <br>
+        </div>
+        <div class="line-content">
+            <button type="submit" class="btn-enviar">Enviar</button>
+            <button type="reset" class="btn-enviar">Apagar</button>
+        </div>
     </form>
-
 </body>
 </html>

@@ -1,0 +1,7 @@
+
+.btn-enviar{
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: var(--cor-secundaria-success)
+}
+
